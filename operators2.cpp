@@ -14,10 +14,10 @@ int main()
 	nRes = d1 / d2;
 	cout << nRes << endl;
 
-	dRes = a / d2; // a - ñîçäàåòñÿ âðåìåííàÿ ïåðåìåííàÿ 5.0
+	dRes = a / d2; // a - Ã±Ã®Ã§Ã¤Ã Ã¥Ã²Ã±Ã¿ Ã¢Ã°Ã¥Ã¬Ã¥Ã­Ã­Ã Ã¿ Ã¯Ã¥Ã°Ã¥Ã¬Ã¥Ã­Ã­Ã Ã¿ 5.0
 	cout << dRes << endl;
 
-	dRes = (double)a / b; // ÿâíîå ïðèâåäåíèå òèïà (explicit type task)
+	dRes = (double)a / b; // Ã¿Ã¢Ã­Ã®Ã¥ Ã¯Ã°Ã¨Ã¢Ã¥Ã¤Ã¥Ã­Ã¨Ã¥ Ã²Ã¨Ã¯Ã  (explicit type task)
 	cout << dRes << endl;*/
 
 	//--------------------------example 2-----------------------------
@@ -123,7 +123,7 @@ int main()
 	cout << "Enter size of the figure: ";
 	cin >> nSize;
 
-	int nStars = 1, nSpaces = 1;
+	int nStars = 1, nSpaces = nSize;
 
 	for (int i = 0; i < nSize; ++i)
 	{
@@ -131,7 +131,7 @@ int main()
 		{
 			cout << ' ';
 		}
-		++nSpaces;
+		--nSpaces;
 
 		for (int j = 0; j < nStars; ++j)
 		{
