@@ -38,7 +38,11 @@ int main()
 	// *****
 	//  ***
 	//   *
-	/*int nHeight = nSize * 2 - 1;
+	/*int nSize;
+	cout << "Enter size of the figure: ";
+	cin >> nSize;
+	
+	int nHeight = nSize * 2 - 1;
 	int nSpaces = nSize, nStars = 1;
 	
 	for (int i = 0; i < nHeight; ++i)
