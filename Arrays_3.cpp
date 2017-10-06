@@ -33,6 +33,41 @@ int main()
 		cout << a << endl;
 	}*/
 	
+	//   *
+	//  ***
+	// *****
+	//  ***
+	//   *
+	/*int nHeight = nSize * 2 - 1;
+	int nSpaces = nSize, nStars = 1;
+	
+	for (int i = 0; i < nHeight; ++i)
+	{
+		for (int j = 0; j < nSpaces; ++j)
+		{
+			cout << ' ';
+		}
+
+		for (int j = 0; j < nStars; ++j)
+		{
+			cout << '*';
+		}
+
+		if (i < nHeight / 2)
+		{
+			nSpaces--;
+			nStars += 2;
+		}
+
+		else
+		{
+			++nSpaces;
+			nStars -= 2;
+		}
+
+		cout << endl;
+	}*/
+	
 	const int SIZE = 20;
 	int iAr[SIZE];
 
